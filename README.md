@@ -28,10 +28,6 @@ The analysis is conducted entirely in **R** utilizing the `Weekly` dataset from 
 * **Model Selection:** Stepwise Selection and Cross-Validation both favored a parsimonious model featuring only `Lag1` as a predictor, prioritizing variance reduction and generalization over complexity.
 * **$k$-NN Performance:** The $k$-NN classifier ($k=5$) achieved an accuracy of **56.3%** on the test set. While modest, this represents a statistically relevant edge over a random 50% guess in a notoriously random-walk environment.
 
-## Repository Structure
-* `Advanced_Statistics_Finance_Report.pdf`: The final project report containing methodology explanations and plots.
-* `script.R` (or `analysis.Rmd`): The clean R script/RMarkdown file containing the full pipeline execution.
-
 ## Libraries Used
 The following R packages are required to run the code:
 ```R
